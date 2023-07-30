@@ -1,4 +1,4 @@
-import {logo} from '../assets'
+import {logo} from '../../src/assets'
 
 const Hero = () => {
   return (
@@ -9,19 +9,19 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/Sayeedifty1", "_blank")
           }
           className='black_btn'
         >
           GitHub
         </button>
       </nav>
-        <h1 className='head_text'>
-          Summarize Article with <br className='max-md:hidden' />
-          <span className='orange_gradient'>OpenAI GPT-4</span>
+        <h1 className='head_text orange_gradient'>
+           Article Summarizer 
+          
         </h1>
         <h2 className='desc'>
-          Simplify your reading experience with Summize, an open-source article summarizer that transforms lengthy articles into clean and concise summaries.
+          Simplify your reading experience with Summize, an open-source article summarizer that transforms lengthy articles into clean and concise summaries using OpenAI GPT-4.
           
         </h2>
     </header>
